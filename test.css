@@ -1,0 +1,42 @@
+ul{
+	list-style: none;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	padding-left: 0;
+}
+
+li{
+	display: inline;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+
+input[type=button]{
+	border: none;
+	color: red;
+	margin: 0 1vh;
+	width: 20vw;
+	height: 20vw;
+	background-color: purple;
+	cursor: pointer;
+	font-size: 2em;
+}
+
+input[type=button]:active{
+	outline: none;
+	padding: 0;
+}
+
+html {
+	background: url(pexels-photo-540518.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
